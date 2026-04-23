@@ -1,16 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
-import Homepage from './pages/Homepage'
+import Homepage from './pages/Home'
+import Header from './pages/Header'
+import Domain from './pages/Domain'
+import Milestones from './pages/Milestones'
 
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-      </Routes>
-    </Router>
+    <div>
+      <Header />
+      <Homepage />
+      <Domain />
+      <Milestones />
+    </div>
   )
 }
 
