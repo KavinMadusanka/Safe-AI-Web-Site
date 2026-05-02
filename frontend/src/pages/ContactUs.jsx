@@ -99,7 +99,7 @@ export default function ContactUs() {
             ))}
 
             {/* Institution info */}
-            <div className="mt-6 bg-slate-950/60 border border-slate-800/60 rounded-xl p-5">
+            {/* <div className="mt-6 bg-slate-950/60 border border-slate-800/60 rounded-xl p-5">
               <p className="text-slate-500 text-xs uppercase tracking-wider mb-3">Institution</p>
               <div className="space-y-2">
                 <p className="text-white font-semibold text-sm">Sri Lanka Institute of Information Technology</p>
@@ -112,12 +112,12 @@ export default function ContactUs() {
                   <p className="text-slate-300 text-sm">Ms. Poojani Gunathilake</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right: Contact form */}
-          <div className="lg:col-span-3">
-            <div className="bg-slate-950/70 border border-slate-800/80 rounded-2xl p-8">
+          <div className="lg:col-span-3 ">
+            {/* <div className="bg-slate-950/70 border border-slate-800/80 rounded-2xl p-8">
               <h3 className="text-white font-bold mb-6 flex items-center gap-2">
                 <span className="w-1 h-5 bg-cyan-400 rounded-full" />
                 Send a Message
@@ -206,6 +206,20 @@ export default function ContactUs() {
                   Send Message
                 </button>
               </form>
+            </div> */}
+            <div className="mt-6 bg-slate-950/60 border border-slate-800/60 rounded-xl p-5">
+              <p className="text-slate-500 text-xs uppercase tracking-wider mb-3">Institution</p>
+              <div className="space-y-2">
+                <p className="text-white font-semibold text-sm">Sri Lanka Institute of Information Technology</p>
+                <p className="text-slate-400 text-sm">Department of Information Technology</p>
+                <p className="text-slate-400 text-sm">Faculty of Computing</p>
+                <div className="pt-2 border-t border-slate-800 mt-3">
+                  <p className="text-slate-500 text-xs mb-1">Supervisor</p>
+                  <p className="text-slate-300 text-sm">Mr. Vishan Jayasinghearachchi</p>
+                  <p className="text-slate-500 text-xs mb-1 mt-2">Co-Supervisor</p>
+                  <p className="text-slate-300 text-sm">Ms. Poojani Gunathilake</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

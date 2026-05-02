@@ -1,3 +1,8 @@
+import kavinImg from "../assets/Kavin.jpg";
+import piyushaImg from "../assets/Piyusha.jpeg";
+import NavishkaImg from "../assets/Navishka.jpeg";
+import SandaminiImg from "../assets/Sandamini.jpeg";
+
 const members = [
   {
     name: "Vithana K.M.N.",
@@ -5,12 +10,12 @@ const members = [
     role: "Secure Plugin Isolation & Interface Enforcement",
     specialization: "Software Engineering (SE)",
     email: "it22572042@my.sliit.lk",
-    avatar: "VK",
+    avatar: kavinImg,
     color: "cyan",
     component: "Component 1",
     abstract:
       "Designed and implemented a two-tier defense framework combining strict API interface enforcement with Docker-based sandbox execution. Introduced real-time behavior monitoring and automatic quarantine mechanisms to protect the core system from misbehaving AI-generated plugins.",
-    technologies: ["FastAPI", "Docker", "WebAssembly", "React.js", "Python"],
+    technologies: ["FastAPI", "Docker", "React.js", "Python"],
   },
   {
     name: "Gunawardana M.A.Y.N.",
@@ -18,7 +23,7 @@ const members = [
     role: "Secure Communication & Authentication Mechanism",
     specialization: "Software Engineering (SE)",
     email: "it22570444@my.sliit.lk",
-    avatar: "GM",
+    avatar: NavishkaImg,
     color: "blue",
     component: "Component 2",
     abstract:
@@ -31,7 +36,7 @@ const members = [
     role: "Automated UML Code Visualization Engine",
     specialization: "Software Engineering (SE)",
     email: "it22232236@my.sliit.lk",
-    avatar: "VV",
+    avatar: SandaminiImg,
     color: "violet",
     component: "Component 3",
     abstract:
@@ -44,7 +49,7 @@ const members = [
     role: "Secure-by-Design AI Code Generator",
     specialization: "Software Engineering (SE)",
     email: "it22227140@my.sliit.lk",
-    avatar: "PP",
+    avatar: piyushaImg,
     color: "green",
     component: "Component 4",
     abstract:
@@ -122,8 +127,12 @@ export default function AboutUs() {
               >
                 {/* Avatar + identity */}
                 <div className="flex items-start gap-4 mb-5">
-                  <div className={`w-14 h-14 flex-shrink-0 rounded-2xl bg-gradient-to-br ${c.avatar} flex items-center justify-center shadow-lg`}>
-                    <span className="text-white font-black text-lg">{member.avatar}</span>
+                  <div className={`w-14 h-14 flex-shrink-0 rounded-2xl bg-gradient-to-br ${c.avatar} flex items-center justify-center shadow-lg overflow-hidden`}>
+                    {typeof member.avatar === 'string' && member.avatar.length <= 2 ? (
+                      <span className="text-white font-black text-lg">{member.avatar}</span>
+                    ) : (
+                      <img src={member.avatar} alt={member.name} className="w-full h-full object-cover" />
+                    )}
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg leading-tight">{member.name}</h3>
@@ -180,12 +189,12 @@ export default function AboutUs() {
               {
                 name: "Mr. Vishan Jayasinghearachchi",
                 role: "Supervisor",
-                dept: "Department of Information Technology, SLIIT",
+                dept: "Department of Computer Science & Software Engineering, SLIIT",
               },
               {
                 name: "Ms. Poojani Gunathilake",
                 role: "Co-Supervisor",
-                dept: "Department of Information Technology, SLIIT",
+                dept: "Department of Computer Science & Software Engineering, SLIIT",
               },
             ].map((sup) => (
               <div

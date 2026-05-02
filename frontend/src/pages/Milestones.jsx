@@ -39,7 +39,7 @@ const milestones = [
     title: "Progress Presentation – 2",
     date: "2025 – Semester 2",
     marks: "Marks Allocated: 20%",
-    status: "upcoming",
+    status: "completed",
     description:
       "Second progress presentation showcasing advanced implementation, integration between components, evaluation results, and refined methodology.",
     documents: [
@@ -66,19 +66,19 @@ const milestones = [
       { name: "IT22227140 – Final Thesis (Prabhasari P.T.P.)", file: "#final-prabhasari.pdf" },
     ],
   },
+  // {
+  //   id: 5,
+  //   phase: "Viva",
+  //   title: "Viva Voce",
+  //   date: "2025 – TBD",
+  //   marks: "Marks Allocated: 15%",
+  //   status: "upcoming",
+  //   description:
+  //     "Individual oral examination where each student defends their research component, methodology, and findings before the evaluation panel.",
+  //   documents: [],
+  // },
   {
     id: 5,
-    phase: "Viva",
-    title: "Viva Voce",
-    date: "2025 – TBD",
-    marks: "Marks Allocated: 15%",
-    status: "upcoming",
-    description:
-      "Individual oral examination where each student defends their research component, methodology, and findings before the evaluation panel.",
-    documents: [],
-  },
-  {
-    id: 6,
     phase: "Checklists",
     title: "Checklists & Other Documents",
     date: "Ongoing",
