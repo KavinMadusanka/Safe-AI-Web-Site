@@ -12,7 +12,7 @@ const members = [
     email: "it22572042@my.sliit.lk",
     avatar: kavinImg,
     color: "cyan",
-    component: "Component 1",
+    component: "IT22572042",
     abstract:
       "Designed and implemented a two-tier defense framework combining strict API interface enforcement with Docker-based sandbox execution. Introduced real-time behavior monitoring and automatic quarantine mechanisms to protect the core system from misbehaving AI-generated plugins.",
     technologies: ["FastAPI", "Docker", "React.js", "Python"],
@@ -25,10 +25,10 @@ const members = [
     email: "it22570444@my.sliit.lk",
     avatar: NavishkaImg,
     color: "blue",
-    component: "Component 2",
+    component: "IT22570444",
     abstract:
       "Built an adaptive trust scoring and dynamic behavior monitoring system for plugin-core architectures. Each plugin receives a unique X.509 cryptographic identity; access is enforced via intent-bound JWTs and a live ABAC policy engine with TLS 1.3 encryption.",
-    technologies: ["X.509 / PKI", "JWT", "Open Policy Agent", "TLS 1.3", "AES-256"],
+    technologies: ["X.509 / PKI", "JWT", "TLS 1.3", "AES-256"],
   },
   {
     name: "Vithanage V.D.S.I.",
@@ -38,7 +38,7 @@ const members = [
     email: "it22232236@my.sliit.lk",
     avatar: SandaminiImg,
     color: "violet",
-    component: "Component 3",
+    component: "IT22232236",
     abstract:
       "Developed a dual-mode code-to-diagram engine that translates AI-generated code into UML diagrams in real time. Supports Java, Python, TypeScript, and JavaScript via both Gemini LLM-based and regex/AST-based parsing pipelines, producing 5 diagram types through PlantUML.",
     technologies: ["Gemini LLM", "PlantUML", "NetworkX", "Python", "React.js"],
@@ -51,7 +51,7 @@ const members = [
     email: "it22227140@my.sliit.lk",
     avatar: piyushaImg,
     color: "green",
-    component: "Component 4",
+    component: "IT22227140",
     abstract:
       "Created a multi-layered security pipeline for AI code generation: OWASP-enhanced prompt engineering, real-time static analysis, Docker sandbox runtime evaluation, and automated secure snippet replacement. Integrates with OpenAI GPT-4 and Hugging Face APIs.",
     technologies: ["OpenAI GPT-4", "Docker", "OWASP Top 10", "Snyk API", "NVD"],
@@ -136,8 +136,8 @@ export default function AboutUs() {
                   </div>
                   <div>
                     <h3 className="text-white font-bold text-lg leading-tight">{member.name}</h3>
-                    <p className="text-slate-500 text-sm font-mono">{member.id}</p>
-                    <span className={`inline-block mt-1 text-xs px-2.5 py-0.5 rounded-full border ${c.badge}`}>
+                    {/* <p className="text-slate-500 text-sm font-mono">{member.id}</p> */}
+                    <span className={`inline-block mt-1 text-xs px-2.5 py-0.5 rounded-full font-mono border ${c.badge}`}>
                       {member.component}
                     </span>
                   </div>

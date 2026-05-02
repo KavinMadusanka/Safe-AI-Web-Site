@@ -18,16 +18,16 @@ const docCategories = [
     color: "blue",
     docs: [
       {
-        name: "IT22572042 – Vithana K.M.N. Proposal",
+        name: "Secure Plugin Isolation & Interface Enforcement Proposal – Vithana K.M.N.",
         type: "PDF",
-        file: "#proposal-vithana.pdf",
-        size: "Mock File",
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22570444_my_sliit_lk/IQC4QHViCaO9RIuX7Bqm5YG7ATdk15jfVvS0X3Uo22a7gOU?e=0UdCfb",
+        size: "Online File",
       },
       {
-        name: "IT22570444 – Gunawardana M.A.Y.N. Proposal",
+        name: "Secure Communication & Authentication Mechanism – Gunawardana M.A.Y.N.",
         type: "PDF",
-        file: "#proposal-gunawardana.pdf",
-        size: "Mock File",
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22570444_my_sliit_lk/IQAN0eBNmOP6Qpul_UB8DzAsAcFl-t984nzu3ItzJso0WKQ?e=mMUTwc",
+        size: "Online File",
       },
 
       {

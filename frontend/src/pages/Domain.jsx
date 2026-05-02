@@ -18,10 +18,10 @@ export default function Domain() {
   const gaps = [
     "Hardcoded credentials and exposed secrets in AI-generated code",
     "Unsafe default configurations (open CORS policies, debug modes enabled)",
-    "Weak authentication — missing password hashing and session expiration",
+    "Weak authentication - missing password hashing and session expiration",
     "Unsanitized inputs leading to SQL injection and command injection attacks",
     "Outdated or insecure third-party library dependencies",
-    "Lack of explainability — developers adopt code they don't fully understand",
+    "Lack of explainability - developers adopt code they don't fully understand",
   ];
 
   const objectives = [
@@ -76,7 +76,7 @@ export default function Domain() {
             <p className="text-slate-300 leading-relaxed mb-4">
               Vibe coding is a modern approach where developers use AI tools such as ChatGPT and GitHub Copilot to generate
               code through natural language prompts. While this significantly improves productivity and helps beginners quickly
-              build prototypes, it introduces several critical risks that threaten software quality, security, and reliability —
+              build prototypes, it introduces several critical risks that threaten software quality, security, and reliability -
               especially when integrating AI-generated code into existing, stable software systems.
             </p>
             <p className="text-slate-300 leading-relaxed mb-4">
@@ -117,7 +117,7 @@ export default function Domain() {
           <Card className="border-blue-500/30 bg-blue-500/5">
             <p className="text-slate-200 leading-relaxed text-lg">
               How can a modular, security-aware framework be designed to enable the safe, transparent, and verifiable
-              integration of AI-generated code into existing stable software systems — bridging the trust gap between
+              integration of AI-generated code into existing stable software systems - bridging the trust gap between
               rapid AI-assisted development and professional-grade software quality?
             </p>
           </Card>

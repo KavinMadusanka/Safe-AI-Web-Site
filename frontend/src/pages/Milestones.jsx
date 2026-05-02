@@ -68,7 +68,7 @@ const milestones = [
     title: "Final Assessment",
     date: "2025 – End of Semester 2",
     marks: "Marks Allocated: 40%",
-    status: "upcoming",
+    status: "ongoing",
     description:
       "Final assessment including complete dissertation submission, research paper, and demonstration of the fully integrated Trusted Framework prototype.",
     documents: [
