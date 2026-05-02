@@ -34,7 +34,7 @@ export default function Home() {
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10">
           A modular security and trust-enhancement framework that enables the safe integration of
-          AI-generated code into existing human-written software systems - making vibe coding
+          AI-generated code into existing human-written software systems making vibe coding
           transparent, verifiable, and secure.
         </p>
 

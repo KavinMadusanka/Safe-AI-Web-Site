@@ -6,8 +6,8 @@ const presentations = [
     status: "available",
     description:
       "Initial proposal slides covering the research problem, objectives, conceptual framework, and methodology for the Trusted Framework for AI Code Integration.",
-    slides: { name: "Group Proposal Presentation", file: "#proposal-slides-group.pptx", type: "PPTX" },
-    video: { name: "Proposal Presentation Video", file: "#proposal-video.mp4" },
+    slides: { name: "Group Proposal Presentation", file: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22232236_my_sliit_lk/IQCN_20kTTDZQ6EEt8cz5AdQARmTpDgXNNb-lz9j9_nBBZE?e=XG8Ede", type: "PPTX" },
+    video: { name: "Proposal Presentation Video", file: "https://mysliit-my.sharepoint.com/:v:/g/personal/it22232236_my_sliit_lk/IQCXto8djvpZSKaD77Wt4zNBAS8HXoaV2rKX46waC0L7TYM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XNIbG3" },
     highlights: ["Problem Statement", "Literature Gap", "Proposed Solution Overview", "Team Roles"],
   },
   {
@@ -17,8 +17,8 @@ const presentations = [
     status: "available",
     description:
       "First progress presentation demonstrating early prototype implementations, literature review findings, and individual component progress.",
-    slides: { name: "Group Progress Presentation 1", file: "#pp1-slides-group.pptx", type: "PPTX" },
-    video: { name: "Progress Presentation 1 Video", file: "#pp1-video.mp4" },
+    slides: { name: "Group Progress Presentation 1", file: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22232236_my_sliit_lk/IQAmS7ao-HmfSZ7XYTaMBDAyATgPRkFb5JSknOP10lyMoVA?e=cHhi0s", type: "PPTX" },
+    video: { name: "Progress Presentation 1 Video", file: "https://mysliit-my.sharepoint.com/:v:/g/personal/it22232236_my_sliit_lk/IQBxgd0dXq-8QpUK8GMYQmyVAYDv9mcedWhuhsB2AKrLr70?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AOqKf2" },
     highlights: ["System Architecture", "Initial Prototypes", "Preliminary Results", "Next Steps"],
   },
   {
@@ -28,7 +28,7 @@ const presentations = [
     status: "available",
     description:
       "Second progress presentation showcasing advanced implementation, integration between the four framework components, and evaluation results.",
-    slides: { name: "Group Progress Presentation 2", file: "#pp2-slides-group.pptx", type: "PPTX" },
+    slides: { name: "Group Progress Presentation 2", file: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22232236_my_sliit_lk/IQAQpOcReJYtS6H-kXl_fr7_Af7Wanz1zw5k0cdQEAuuEmg?e=Ed8HUe", type: "PPTX" },
     video: { name: "Progress Presentation 2 Video", file: "#pp2-video.mp4" },
     highlights: ["Integration Demo", "Evaluation Metrics", "Security Testing", "Comparative Analysis"],
   },

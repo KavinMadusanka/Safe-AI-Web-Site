@@ -96,7 +96,7 @@ export default function AboutUs() {
           </span>
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">Meet the Research Team</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Four undergraduate researchers from the Department of Information Technology, SLIIT, collaborating on a trusted
+            Four undergraduate researchers from the Department of Software Engineering, SLIIT, collaborating on a trusted
             framework for secure AI-assisted software development.
           </p>
         </div>

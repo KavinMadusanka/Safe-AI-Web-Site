@@ -76,7 +76,7 @@ export default function Domain() {
             <p className="text-slate-300 leading-relaxed mb-4">
               Vibe coding is a modern approach where developers use AI tools such as ChatGPT and GitHub Copilot to generate
               code through natural language prompts. While this significantly improves productivity and helps beginners quickly
-              build prototypes, it introduces several critical risks that threaten software quality, security, and reliability -
+              build prototypes, it introduces several critical risks that threaten software quality, security, and reliability
               especially when integrating AI-generated code into existing, stable software systems.
             </p>
             <p className="text-slate-300 leading-relaxed mb-4">
@@ -117,7 +117,7 @@ export default function Domain() {
           <Card className="border-blue-500/30 bg-blue-500/5">
             <p className="text-slate-200 leading-relaxed text-lg">
               How can a modular, security-aware framework be designed to enable the safe, transparent, and verifiable
-              integration of AI-generated code into existing stable software systems - bridging the trust gap between
+              integration of AI-generated code into existing stable software systems bridging the trust gap between
               rapid AI-assisted development and professional-grade software quality?
             </p>
           </Card>
@@ -170,7 +170,7 @@ export default function Domain() {
           <Card>
             <p className="text-slate-300 leading-relaxed mb-6">
               The proposed solution is a modular security and trust-enhancement framework consisting of four interconnected
-              components. Each component addresses a distinct vulnerability in the AI code integration lifecycle — from initial
+              components. Each component addresses a distinct vulnerability in the AI code integration lifecycle from initial
               generation through deployment into production systems.
             </p>
             <div className="grid md:grid-cols-2 gap-6">

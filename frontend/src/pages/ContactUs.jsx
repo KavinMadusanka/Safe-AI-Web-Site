@@ -211,7 +211,7 @@ export default function ContactUs() {
               <p className="text-slate-500 text-xs uppercase tracking-wider mb-3">Institution</p>
               <div className="space-y-2">
                 <p className="text-white font-semibold text-sm">Sri Lanka Institute of Information Technology</p>
-                <p className="text-slate-400 text-sm">Department of Information Technology</p>
+                <p className="text-slate-400 text-sm">Department of Software Engineering</p>
                 <p className="text-slate-400 text-sm">Faculty of Computing</p>
                 <div className="pt-2 border-t border-slate-800 mt-3">
                   <p className="text-slate-500 text-xs mb-1">Supervisor</p>
