@@ -1,6 +1,18 @@
 const milestones = [
-  {
+    {
     id: 1,
+    phase: "TAF",
+    title: "TAF",
+    date: "2025 – Semester 1",
+    status: "completed",
+    description:
+      "Initial project topic assessment submission and approval process.",
+    documents: [
+      { name: "TAF Document", file: "#proposal-group.pdf" },
+    ],
+  },
+  {
+    id: 2,
     phase: "Proposal",
     title: "Project Proposal",
     date: "2025 – Semester 1",
@@ -17,7 +29,7 @@ const milestones = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     phase: "Progress 1",
     title: "Progress Presentation – 1",
     date: "2025 – Semester 1",
@@ -34,7 +46,7 @@ const milestones = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     phase: "Progress 2",
     title: "Progress Presentation – 2",
     date: "2025 – Semester 2",
@@ -51,7 +63,7 @@ const milestones = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     phase: "Final",
     title: "Final Assessment",
     date: "2025 – End of Semester 2",
@@ -78,7 +90,7 @@ const milestones = [
   //   documents: [],
   // },
   {
-    id: 5,
+    id: 6,
     phase: "Checklists",
     title: "Checklists & Other Documents",
     date: "Ongoing",
@@ -87,7 +99,6 @@ const milestones = [
     description:
       "All checklist documents, topic assessment form, and administrative submissions required throughout the research project lifecycle.",
     documents: [
-      { name: "Topic Assessment Form (TAF_25-26J-461)", file: "#taf.pdf" },
       { name: "Project Charter", file: "#charter.pdf" },
       { name: "Ethical Clearance Form", file: "#ethics.pdf" },
       { name: "Supervisor Meeting Log", file: "#meeting-log.pdf" },

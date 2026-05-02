@@ -1,13 +1,13 @@
 const docCategories = [
   {
-    category: "Project Charter",
+    category: "TAF",
     icon: "📋",
     color: "cyan",
     docs: [
       {
-        name: "Group Project Charter",
+        name: "TAF Document",
         type: "PDF",
-        file: "#charter-group.pdf",
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22232236_my_sliit_lk/IQBn87Hz__5gR4LeuDsLqCZvASxKFLWcWJDwzIF-2jPsMdU?e=H1PBX7",
         size: "Mock File",
       },
     ],
@@ -50,7 +50,12 @@ const docCategories = [
     icon: "✅",
     color: "green",
     docs: [
-      { name: "Checklist 1", type: "PDF", file: "#checklist-vithana.pdf", size: "Mock File" },
+      { 
+        name: "Checklist 1", 
+        type: "PDF", 
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22232236_my_sliit_lk/IQAyGs-i33DjTY-9tQhY9tEsAcJplq88rv4sRNizXTqSIuM?e=ufxeHn", 
+        size: "Mock File" 
+      },
       { name: "Checklist 2", type: "PDF", file: "#checklist-gunawardana.pdf", size: "Mock File" },
       { name: "Checklist 3", type: "PDF", file: "#checklist-vithanage.pdf", size: "Mock File" },
     ],
@@ -62,9 +67,9 @@ const docCategories = [
     docs: [
       { name: "IT22572042 – Final Thesis (Vithana K.M.N.)", type: "PDF", file: "#final-vithana.pdf", size: "Mock File" },
       { name: "IT22570444 – Final Thesis (Gunawardana M.A.Y.N.)", type: "PDF", file: "#final-gunawardana.pdf", size: "Mock File" },
-      { name: "IT22232236 – Final Thesis (Vithanage V.D.S.I.)", type: "PDF", file: "#final-vithanage.pdf", size: "Mock File" },
+      { name: "Automated UML Code Visualization Proposal - Final Thesis (Vithanage V.D.S.I.)", type: "PDF", file: "#final-vithanage.pdf", size: "Mock File" },
       { name: "IT22227140 – Final Thesis (Prabhasari P.T.P.)", type: "PDF", file: "#final-prabhasari.pdf", size: "Mock File" },
-      { name: "Group Final Report", type: "PDF", file: "#final-group.pdf", size: "Mock File" },
+      { name: "Group Final Thesis", type: "PDF", file: "#final-group.pdf", size: "Mock File" },
     ],
   },
 ];
