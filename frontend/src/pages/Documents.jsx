@@ -38,10 +38,10 @@ const docCategories = [
       },
 
       {
-        name: "IT22227140 – Prabhasari P.T.P. Proposal",
+        name: "Secure By Design AI Code Generator – Prabhasari P.T.P.",
         type: "PDF",
-        file: "#proposal-prabhasari.pdf",
-        size: "Mock File",
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22227140_my_sliit_lk/IQCT0gDxtK1hQ7tvdwNmFNpKAW1KJaRJEay0qI-9cCjWhSk?e=Je7YPl",
+        size: "Online File",
       },
     ],
   },
@@ -56,8 +56,15 @@ const docCategories = [
         file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22232236_my_sliit_lk/IQAyGs-i33DjTY-9tQhY9tEsAcJplq88rv4sRNizXTqSIuM?e=ufxeHn", 
         size: "Mock File" 
       },
-      { name: "Checklist 2", type: "PDF", file: "#checklist-gunawardana.pdf", size: "Mock File" },
-      { name: "Checklist 3", type: "PDF", file: "#checklist-vithanage.pdf", size: "Mock File" },
+      { name: "Checklist 2", 
+        type: "PDF", 
+        file: "https://mysliit-my.sharepoint.com/:v:/g/personal/it22227140_my_sliit_lk/IQAO68WPI1vPRIAbptGawQzeAVyv32H7KP9r6LerSIq_xcY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EUI6Oy", 
+        size: "Mock File" 
+      },
+      { name: "Checklist 3", 
+        type: "PDF", 
+        file: "https://mysliit-my.sharepoint.com/:b:/g/personal/it22227140_my_sliit_lk/IQAd2pFyhbDVRpYNhj_BEUlAAUE42s9dSvJQAa2Rw0Eirkk?e=7bqNTe", 
+        size: "Mock File" },
     ],
   },
   {
