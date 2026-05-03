@@ -82,7 +82,7 @@ const docCategories = [
         size: "Online File" },
       { name: "Automated UML Code Visualization Proposal - Vithanage V.D.S.I.", 
         type: "PDF", 
-        file: "#final-vithanage.pdf", 
+        file: "https://mysliit-my.sharepoint.com/:w:/g/personal/it22232236_my_sliit_lk/IQAjllpoBHdpRLkzrGd4RqBjAdO9puUPtmCs-_rg2Zar0jU?e=dkPMGW", 
         size: "Online File" },
       { name: "Secure By Design AI Code Generator - Prabhasari P.T.P.", 
         type: "PDF", 
