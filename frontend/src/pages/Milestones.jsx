@@ -15,7 +15,7 @@ const milestones = [
     id: 2,
     phase: "Proposal",
     title: "Project Proposal",
-    date: "2025 – Semester 1",
+    date: "2025 – Oct",
     marks: "Marks Allocated: 10%",
     status: "completed",
     description:
@@ -32,7 +32,7 @@ const milestones = [
     id: 3,
     phase: "Progress 1",
     title: "Progress Presentation – 1",
-    date: "2025 – Semester 1",
+    date: "2026 – jan",
     marks: "Marks Allocated: 15%",
     status: "completed",
     description:
@@ -49,7 +49,7 @@ const milestones = [
     id: 4,
     phase: "Progress 2",
     title: "Progress Presentation – 2",
-    date: "2025 – Semester 2",
+    date: "2026/04/30",
     marks: "Marks Allocated: 20%",
     status: "completed",
     description:
@@ -66,7 +66,7 @@ const milestones = [
     id: 5,
     phase: "Final",
     title: "Final Assessment",
-    date: "2025 – End of Semester 2",
+    date: "2026/05/05",
     marks: "Marks Allocated: 40%",
     status: "ongoing",
     description:
@@ -93,9 +93,9 @@ const milestones = [
     id: 6,
     phase: "Checklists",
     title: "Checklists & Other Documents",
-    date: "Ongoing",
+    date: "2026/04/30",
     marks: "",
-    status: "ongoing",
+    status: "completed",
     description:
       "All checklist documents, topic assessment form, and administrative submissions required throughout the research project lifecycle.",
     documents: [
@@ -170,7 +170,7 @@ export default function Milestones() {
                       <p className="text-slate-400 text-sm leading-relaxed mb-4">{ms.description}</p>
 
                       {/* Documents */}
-                      {ms.documents.length > 0 && (
+                      {/* {ms.documents.length > 0 && (
                         <div>
                           <p className="text-slate-500 text-xs font-semibold uppercase tracking-wider mb-2">Documents</p>
                           <div className="space-y-1.5">
@@ -190,7 +190,7 @@ export default function Milestones() {
                             ))}
                           </div>
                         </div>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </div>

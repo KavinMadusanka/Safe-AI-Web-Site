@@ -189,8 +189,6 @@ export default function SlidesOfPastPresentations() {
           <span className="text-amber-400 text-lg flex-shrink-0">ℹ</span>
           <p className="text-slate-400 text-sm">
             Slides and videos marked as <strong className="text-amber-400">Upcoming</strong> will be added after the respective presentation.
-            Replace placeholder <code className="text-cyan-400 bg-slate-800 px-1 rounded text-xs">file="#..."</code> values
-            in <code className="text-cyan-400 bg-slate-800 px-1 rounded text-xs">SlidesOfPastPresentations.jsx</code> with real file paths or URLs.
           </p>
         </div>
       </div>
