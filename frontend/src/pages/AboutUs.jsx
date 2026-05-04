@@ -53,8 +53,8 @@ const members = [
     color: "green",
     component: "IT22227140",
     abstract:
-      "Created a multi-layered security pipeline for AI code generation: OWASP-enhanced prompt engineering, real-time static analysis, Docker sandbox runtime evaluation, and automated secure snippet replacement. Integrates with OpenAI GPT-4 and Hugging Face APIs.",
-    technologies: ["OpenAI GPT-4", "Docker", "OWASP Top 10", "Snyk API", "NVD"],
+      "Created a multi-layered security pipeline for AI code generation: OWASP-enhanced prompt engineering, real-time static analysis, Docker sandbox runtime evaluation, and automated secure snippet replacement. Integrates with Gemini LLM APIs.",
+    technologies: ["Gemini LLM", "Docker", "OWASP Top 10", "Semgrep", "Python"],
   },
 ];
 

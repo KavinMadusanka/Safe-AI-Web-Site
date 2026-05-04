@@ -90,7 +90,7 @@ const docCategories = [
         size: "Online File" },
       { name: "Group Final Thesis", 
         type: "PDF", 
-        file: "#final-group.pdf", 
+        file: "https://mysliit-my.sharepoint.com/:w:/g/personal/it22227140_my_sliit_lk/IQBpOG7CRKTuT4t4DdHRRPbzAdJNnNXoZ9KFCuYP3ULxISY?e=sU3tfI", 
         size: "Online File" },
     ],
   },
