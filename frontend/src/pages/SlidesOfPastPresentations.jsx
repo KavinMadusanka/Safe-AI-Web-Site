@@ -17,7 +17,7 @@ const presentations = [
     status: "available",
     description:
       "First progress presentation demonstrating early prototype implementations, literature review findings, and individual component progress.",
-    slides: { name: "Group Progress Presentation 1", file: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22232236_my_sliit_lk/IQAmS7ao-HmfSZ7XYTaMBDAyATgPRkFb5JSknOP10lyMoVA?e=cHhi0s", type: "PPTX" },
+    slides: { name: "Group Progress Presentation 1", file: "https://mysliit-my.sharepoint.com/:p:/g/personal/it22232236_my_sliit_lk/IQDDudEQ3fODSbjzwnNUqY0nAYNdncq6wNxSsGKzyIXNWqc?e=AIpXo7", type: "PPTX" },
     video: { name: "Progress Presentation 1 Video", file: "https://mysliit-my.sharepoint.com/:v:/g/personal/it22232236_my_sliit_lk/IQBxgd0dXq-8QpUK8GMYQmyVAYDv9mcedWhuhsB2AKrLr70?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AOqKf2" },
     highlights: ["System Architecture", "Initial Prototypes", "Preliminary Results", "Next Steps"],
   },
