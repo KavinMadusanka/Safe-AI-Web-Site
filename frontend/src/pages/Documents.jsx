@@ -86,7 +86,7 @@ const docCategories = [
         size: "Online File" },
       { name: "Secure By Design AI Code Generator - Prabhasari P.T.P.", 
         type: "PDF", 
-        file: "#final-prabhasari.pdf", 
+        file: "https://mysliit-my.sharepoint.com/:w:/g/personal/it22227140_my_sliit_lk/IQAxo1hNM3dpSY5gH-qmJ4LmAQIamVFMPCPAt9n7JxoPGo8?e=32kaE0", 
         size: "Online File" },
       { name: "Group Final Thesis", 
         type: "PDF", 
